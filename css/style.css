@@ -16,7 +16,7 @@ body {
     grid-template-columns: 1fr 5fr 1fr;
 }
 
-.img  img {
+img {
     position: absolute;
     width: 69px;
     bottom: 280px;
