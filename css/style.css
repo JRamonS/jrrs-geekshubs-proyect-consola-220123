@@ -19,7 +19,7 @@ body {
 img {
     position: absolute;
     width: 69px;
-    bottom: 280px;
+    bottom: 250px;
     right: 335px;
     border-radius: 30%;
     transform: rotate(90deg);
