@@ -1,4 +1,6 @@
-# Proyecto de la consola Nintendo-Switch.
-Foto proyecto final de la consola
+# Consola Nintendo-Switch.
+### Estructura
+
+
 
 ![](img/Screenshot_6.png)
