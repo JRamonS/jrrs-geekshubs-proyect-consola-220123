@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
 }
 
-/* Esta parte es la principal para dividir el div en tres parte principales */
+/* Parte principal del proyecto */
 .container {
     width: 700px;
     height: 350px;
@@ -17,15 +17,15 @@ body {
     grid-template-columns: 1fr 5fr 1fr;
 }
 
-/* Imagen del logo de nintendo-switch */
+/* logo */
 img {
     position: absolute;
     width: 200px;
-    bottom:440px;
-    right:520px;
+    bottom:465px;
+    right:610px;
 }
 
-/* La parte Izquierda con su color y sus propiedades */
+/* Parte Izquierda*/
 #lefthand {
     grid-column: 1 / 2;
     background-color: rgb(39, 39, 211);
@@ -33,74 +33,52 @@ img {
     box-shadow: 1px 1px 5px 7px rgb(39, 39, 211);
 }
 
-/* Este es el boton grande de la parte izquierda */
-.bottom  a {
-    position: absolute;
+
+/* El boton grande */
+.btn-1 {
+    position: relative;
     width: 40px;
     height: 40px;
-    display: inline-block;
     background-color:black;
     border-radius: 50%;
-    margin-top: 65px;
-    margin-left: 40px;
-}
-
-/* En esta parte estan los mini-botones de la izquierda */
-.bt1 a {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-color:black;
-    border-radius: 50%;
-    top: 260px;
-    left: 50px;
-}
-
-.bt2 a {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-color:black;
-    border-radius: 50%;
-    top: 200px;
-    left: 50px;
-}
-
-.bt3 a {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-color:black;
-    border-radius: 50%;
-    top: 193px;
+    top: 201px;
     left: 30px;
+    cursor: pointer;    
 }
 
-.bt4 a {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-color:black;
-    border-radius: 50%;
-    top: 169px;
-    left: 70px;
+
+/* Mini-botones izquierda  */
+.bt5{
+    top: 39px;
+    left: 37px;
 }
-/* estes es el cuadrado que esta debajo de los mini-botones en la parte inferior izquierda */
+
+.bt6{
+    top: 9px;
+    left: 12px;
+}
+
+.bt7 {
+    top: 23px;
+    left: 8px;
+}
+
+.bt8 {
+    top: 24px;
+    right: 55px;
+}
+/* Cuadrado inferior izquierda */
 .cadr {
     position: relative;
     width: 20px;
     height: 20px;
-    display: inline-block;
+    border-radius: 50%;
     background-color:black;
     top: 210px;
-    left: 70px;
+    left: 10px;
 }
 
-/* Div de la parte principal */
+/* Pantalla */
 #main {
     grid-column: 2 / 3;
     background-color: rgb(24, 22, 22);
@@ -108,18 +86,17 @@ img {
     
 }
 
-/* Esta es la pantalla de la consola es la que apararece en el medio dentro del div principal */
+
 .screen {
     position:relative;
     width: 470px;
     height: 330px;
     background-color: rgb(32, 28, 28);
     left: 10px;
-    top: 25px;
+    top: 09px;
     cursor: pointer;
 }
 
-/* Este es el video que aparece cuando lo senalamos con el cursor */
 .screen video {
     width: 100%;
     height: 100%;
@@ -127,12 +104,11 @@ img {
     opacity: 0;
 }
 
-/* Efecto que hace que cuando pases el cursor se vea la imagen */
 .screen:hover > video {
     opacity: 1;
 }
 
-/* parte derecha de la consola con sus propiedades */
+/* Parte derecha */
 #righthand {
     grid-column: 3 / 4;
     background-color: rgb(211, 38, 38);
@@ -140,76 +116,60 @@ img {
     box-shadow: 1px 1px 5px 7px rgb(211, 38, 38);
 }
 
-/* El boton grande  */
-.bottom2 a {
-
+.btn {
     position: relative;
     width: 40px;
     height: 40px;
-    display: inline-block;
     background-color:black;
     border-radius: 50%;
-    margin-top: 200px;
-    margin-left: 30px;
-    top: 40px;
+    top: 60px;
+    left: 30px;
+    cursor: pointer;
 }
 
-/* Aqui estan los mini-botones */
-.bt a {
-    position: relative;
-   width: 20px;
-   height: 20px;
-   display: inline-block;
-   background-color: black;
-   border-radius: 50%;
-   bottom: 160px;
-   left: 35px;
+/* Mini-botones */
 
-}
-
-.bt-1 a {
-    position: relative;
-   width: 20px;
-   height: 20px;
-   display: inline-block;
-   background-color: black;
-   border-radius: 50%;
-   bottom: 220px;
-   left: 35px;
-}
-
-.bt-2 a {
-    position: relative;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  background-color: black;
-  border-radius: 50%;
-  bottom: 225px;
-  left: 15px;
-}
-
-.bt-3 a {
+.bt-5,
+.bt1,
+.bt2,
+.bt3,
+.bt4 {
     position: relative;
     width: 20px;
     height: 20px;
-    display: inline-block;
-    background-color:black;
+    background-color: black;
     border-radius: 50%;
-    bottom: 252px;
-    left: 55px; 
+    cursor: pointer;
 }
+.bt1 {
+    top: 180px;
+    left: 40px;
+}
+
+.bt2 {
+    top: 150px;
+    left: 16px;
+}
+
+.bt3 {
+    top: 165px;
+    left: 10px;
+}
+
+.bt4 {
+    top: 165px;
+    right: 52px;
+}
+
  
-/* este es el circulo que aparece en la parte inferior de la derecha  */
 .cadr-1 {
     position: relative;
     width: 20px;
     height: 20px;
-    display: inline-block;
-    border-radius: 50%;
     background-color:black;
-    bottom: 35px;
-    left: 13px;
+    top: 210px;
+    left: 58px;
 }
+
 
 
