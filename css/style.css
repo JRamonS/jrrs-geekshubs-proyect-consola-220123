@@ -21,8 +21,8 @@ body {
 img {
     position: absolute;
     width: 200px;
-    bottom:445px;
-    right: 570px;
+    bottom:430px;
+    right: 540px;
 }
 
 /* Parte Izquierda*/
@@ -34,7 +34,7 @@ img {
 }
 
 
-/* El boton grande */
+/* El botòn grande */
 .btn-1 {
     position: relative;
     width: 40px;
